@@ -1,0 +1,62 @@
+.nav-bar{
+	bottom: 0;
+	position: absolute;
+	height: 45px;
+	width: 100%;
+	background: rgba(0,99,199,.0);
+	z-index: 9998;
+}
+.nav-bar .start{
+	border-right: 2px transparent solid;
+	background: transparent;
+	color:#E05A00;
+}
+.nav-bar .start a{
+	color: #DE8D00;
+}
+.nav-bar .start a:active{
+	background: transparent;
+	color: #E05A00;
+}
+.nav-bar .start a:hover{
+	background: #DE8D00;
+	color: #fff;
+}
+.nav-bar .open-app{
+	border: transparent solid;
+	width:60px;
+	color: #fff;
+}
+.nav-bar .open-app .title{
+	display:none;
+}
+.nav-bar .open-app i{
+	font-size: 28px;
+	color: #DE8D00;
+	line-height: 40px;
+}
+.nav-bar .open-app.selected{
+	background: transparent;
+	color:#fff;
+}
+.nav-bar .open-app.selected:hover{
+	background: transparent;
+	color:#fff;
+}
+.nav-bar .open-app:hover{
+	background: transparent;
+	color:#fff;
+}
+.submenu{
+	background: #DE8D00;
+}
+.submenu ul li:first-child{
+	background: #1F1F1F;
+}
+.submenu ul li a:hover{
+	background: #1F1F1F;
+}
+.clock{
+	background: rgba(0,99,199,.0);
+	color:#DE8D00;
+}

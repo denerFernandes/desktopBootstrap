@@ -1,0 +1,50 @@
+.nav-bar{
+	bottom: 0;
+	position: absolute;
+	height: 45px;
+	width: 100%;
+	background: rgba(0,99,199,.8);
+	z-index: 9998;
+}
+.nav-bar .start{
+	border-right: 2px #004D99 solid;
+	background: #0080FF;
+	color:#fff;
+}
+.nav-bar .start a{
+	color: #fff;
+}
+.nav-bar .start a:active{
+	background: #fff;
+	color: #0080FF;
+}
+.nav-bar .start a:hover{
+	background: #fff;
+	color: #0080FF;
+}
+.nav-bar .open-app{
+	border: #0080FF solid;
+	color: #fff;
+}
+.nav-bar .open-app.selected{
+	background: #0080FF;
+}
+.nav-bar .open-app.selected:hover{
+	background: #006EDB;
+}
+.nav-bar .open-app:hover{
+	background: #0080FF;
+}
+.submenu{
+	background: #0080FF;
+}
+.submenu ul li:first-child{
+	background: #004F9E;
+}
+.submenu ul li a:hover{
+	background: #00478F;
+}
+.clock{
+	background: rgba(0,99,199,.9);
+	color:#fff;
+}

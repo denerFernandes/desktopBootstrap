@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		
+		 <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+		
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+		
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		
+		<!-- Avivo CSS --> 
+		<link rel="stylesheet" href="assets/css/theme.css" />
+        <link rel="stylesheet" href="assets/css/avivo.css" />
+        <link rel="stylesheet" id="theme" href="assets/css/themes/start.css" />
+        <title>Bootstrap Desktop</title>
+    </head>
+    <body>
+    	<div class="nav-bar">
+    		<div class="start">
+    			<a href="#" class="start-menu" id="full"><i class="fa fa-bars"></i></a>
+    		</div>
+    		<div class="nav-apps">
+    			
+    		</div>
+    		<div class="clock">
+					  <ul>
+					      <li id="hours"></li>
+					      <li id="point">:</li>
+					      <li id="min"></li>
+					      <li id="point">:</li>
+					      <li id="sec"></li>
+					  </ul>
+					  <div id="Date"></div>
+					</div>
+    		
+    	</div>
+    	<div class="menu">
+    		<div class="submenu">
+    			<ul>
+    				<li><a href="#" onclick="openApp('settings', 'Settings', 'settings.html', 'fa-cogs')"><i class="fa fa-cogs"></i></a></li>
+    				<li><a href="#" onclick="openApp('users', 'users', 'users.html', 'fa-users')"><i class="fa fa-users"></i></a></li>
+    				<li><a href="#" onclick="openApp('time', 'Time preferences', 'time.html', 'fa-clock-o')"><i class="fa fa-clock-o"></i></a></li>
+    				<li><a href="#"><i class="fa fa-file-image-o"></i></a></li>
+    				<li><a href="#"><i class="fa fa-sign-out"></i></a></li>
+    			</ul>
+    		</div>
+    	</div>
+    	<div class="content">
+		
+				<div class="col-desktop">
+	 				<div class="app-icon blue">
+	 					<a href="#" ondblclick="openApp('settings', 'Settings', 'settings.html', 'fa-cogs', 800, 700, false)">
+	 						<i class="fa fa-cogs"></i>Settings
+	 					</a>
+	 				</div>
+	 			    <div class="app-icon red">
+	 					<a href="#" ondblclick="openApp('users', 'Users', 'users.html', 'fa-users')">
+	 						<i class="fa fa-users"></i>Users
+	 					</a>
+	 				</div>
+ 				</div>
+				<div class="col-desktop">
+	 				<div class="app-icon green">
+	 					<a href="#" ondblclick="openApp('time', 'Time preferences', 'clock.php', 'fa-clock-o')">
+	 						<i class="fa fa-clock-o"></i>Time
+	 					</a>
+	 				</div>
+
+ 				</div>
+
+    	</div>
+      
+    </body>
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.cookie.js"></script>
+	<script src="assets/js/jquery.fullscreen.js"></script>
+	<script src="assets/js/clock.js"></script>
+    <script src="assets/js/desktop.js"></script>
+    
+</html>

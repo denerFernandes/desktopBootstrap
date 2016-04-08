@@ -1,0 +1,9 @@
+# file cache mac Os
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+.afpDeleted*
+
+# Configuration directory of PhpStorm
+.idea
